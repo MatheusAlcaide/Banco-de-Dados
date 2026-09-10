@@ -2,7 +2,7 @@
 
 Trabalho de Banco de Dados - versão adaptada.
 
-**Aluno:** [SEU NOME]
+**Aluno:** [Matheus Alcaide]
 
 ## Introdução
 
