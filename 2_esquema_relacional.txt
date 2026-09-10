@@ -1,0 +1,15 @@
+ESQUEMA RELACIONAL - Clínica Veterinária (Versão Adaptada)
+
+Cliente (cpf, nome, telefone, email)
+
+Animal (cod_animal, nome, ano_nascimento, especie, raca,
+        cpf_cliente (FK) referencia Cliente)
+
+Veterinario (crmv, nome, data_admissao, especialidade, salario)
+
+Consulta (cod_consulta, data, hora, motivo,
+          crmv_veterinario (FK) referencia Veterinario,
+          cod_animal (FK) referencia Animal)
+
+Obs: PK é o primeiro atributo de cada tabela (cpf, cod_animal, crmv, cod_consulta).
+Todos os relacionamentos são 1:N, por isso a FK sempre fica do lado "N".
